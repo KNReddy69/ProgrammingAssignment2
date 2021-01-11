@@ -4,6 +4,7 @@
 ## Write a short comment describing this function
 
 makeCacheMatrix <- function(x = matrix()) {
+         ## caches a matrix and defines method to retrieve the inverse matrix
          inverse_matrix <- NULL
   set <- function(y) {
           x <<- y
